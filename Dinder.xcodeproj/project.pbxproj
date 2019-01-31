@@ -13,6 +13,7 @@
 		0B341CF5220284540094EDD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B341CF3220284540094EDD1 /* LaunchScreen.storyboard */; };
 		0B341CFE2202B95B0094EDD1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B341CFD2202B95B0094EDD1 /* ProfileViewController.swift */; };
 		0B341D002202B9690094EDD1 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B341CFF2202B9690094EDD1 /* BrowseViewController.swift */; };
+		0B341D022202BC040094EDD1 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B341D012202BC040094EDD1 /* EventsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0B341CF6220284540094EDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B341CFD2202B95B0094EDD1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0B341CFF2202B9690094EDD1 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		0B341D012202BC040094EDD1 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				0B341CFD2202B95B0094EDD1 /* ProfileViewController.swift */,
 				0B341CFF2202B9690094EDD1 /* BrowseViewController.swift */,
+				0B341D012202BC040094EDD1 /* EventsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B341D002202B9690094EDD1 /* BrowseViewController.swift in Sources */,
+				0B341D022202BC040094EDD1 /* EventsViewController.swift in Sources */,
 				0B341CFE2202B95B0094EDD1 /* ProfileViewController.swift in Sources */,
 				0B341CEB220284530094EDD1 /* AppDelegate.swift in Sources */,
 			);
