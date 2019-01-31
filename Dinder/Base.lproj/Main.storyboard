@@ -129,6 +129,7 @@
                         <viewLayoutGuide key="safeArea" id="cUG-aD-Sn1"/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="P9x-Cz-S8A" appends="YES" id="0Fw-a1-KlU"/>
+                            <outletCollection property="gestureRecognizers" destination="Q4T-L7-PHm" appends="YES" id="GK0-Ff-nfB"/>
                         </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Browse" id="8EG-xJ-7AO"/>
@@ -137,6 +138,11 @@
                 <swipeGestureRecognizer direction="left" id="P9x-Cz-S8A">
                     <connections>
                         <action selector="swippedLeft:" destination="hI7-s8-T1G" id="njn-9H-Wv5"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Q4T-L7-PHm">
+                    <connections>
+                        <action selector="swippedRight:" destination="hI7-s8-T1G" id="48S-ll-U5H"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
