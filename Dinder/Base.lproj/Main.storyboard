@@ -79,7 +79,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xXl-D3-eiE"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="profile" id="1gL-je-qEZ"/>
+                    <tabBarItem key="tabBarItem" title="profile" image="circle-user-7" id="1gL-je-qEZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zTG-Fu-eOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -95,7 +95,7 @@
                         <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="aF2-YZ-9NC"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="connections" id="W43-mo-ND7"/>
+                    <tabBarItem key="tabBarItem" title="connections" image="star-7" id="W43-mo-ND7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CV0-8W-v0k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,7 +111,7 @@
                         <color key="backgroundColor" red="1" green="0.91896892969999999" blue="0.61512825429999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="SKj-w6-q0E"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="create" id="gU9-95-17Y"/>
+                    <tabBarItem key="tabBarItem" title="create" image="plus-simple-7" id="gU9-95-17Y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h5t-MQ-eef" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -132,7 +132,7 @@
                             <outletCollection property="gestureRecognizers" destination="Q4T-L7-PHm" appends="YES" id="GK0-Ff-nfB"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Browse" id="8EG-xJ-7AO"/>
+                    <tabBarItem key="tabBarItem" title="Browse" image="finger-point-top-7" id="8EG-xJ-7AO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PIA-ps-5u8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="P9x-Cz-S8A">
@@ -169,4 +169,10 @@
             <point key="canvasLocation" x="-458" y="-55"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="circle-user-7" width="30" height="30"/>
+        <image name="finger-point-top-7" width="30" height="30"/>
+        <image name="plus-simple-7" width="30" height="30"/>
+        <image name="star-7" width="30" height="30"/>
+    </resources>
 </document>
