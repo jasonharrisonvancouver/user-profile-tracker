@@ -1,0 +1,6 @@
+framework module Pods_FamousPeopleUITests {
+  umbrella header "Pods-FamousPeopleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
